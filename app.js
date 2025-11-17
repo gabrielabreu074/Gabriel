@@ -10,6 +10,9 @@ app.use(cors());
 // Middleware para ler JSON do corpo da requisição
 app.use(express.json());
 
+
+
+
 // GET - Consulta os dados cadastrados
 app.get ("/agendamentos", async (req, res)=>{
     try {
