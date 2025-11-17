@@ -10,7 +10,7 @@ form.addEventListener("submit", async(e)=>{
     const horario = document.querySelector("#time").value;
 
     try {
-        const resposta = await fetch("http://localhost:3000/agendamentos", {
+        const resposta = await fetch("https://gabriel-s574.onrender.com/agendamentos", {
             method: "POST",
             headers: {"content-type": "application/json"},
             body: JSON.stringify(
