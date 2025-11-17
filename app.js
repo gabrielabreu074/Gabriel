@@ -2,6 +2,7 @@
 import express from "express";
 import Agendamento from "./agendamentos.js";
 import cors from "cors";
+import path from "path";
 
 const app = express();
 
