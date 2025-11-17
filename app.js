@@ -14,6 +14,7 @@ const _dirname = path.resolver();
 
 app.use(express.static(path.join(_dirname, "public")))
 
+
 // GET - Consulta os dados cadastrados
 app.get ("/agendamentos", async (req, res)=>{
     try {
