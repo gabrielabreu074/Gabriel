@@ -11,7 +11,7 @@ app.use(cors());
 // Middleware para ler JSON do corpo da requisição
 app.use(express.json());
 
-const _dirname = path.resolver();
+const _dirname = path.resolve();
 
 app.use(express.static(path.join(_dirname, "public")))
 
